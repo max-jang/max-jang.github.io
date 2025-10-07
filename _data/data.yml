@@ -131,6 +131,8 @@ projects:
       tagline: "Smart building management platform with real-time HVAC data analytics."
     - title: Viewus Integrated Content Collector (FastView)
       tagline: "Automated content aggregation using Spring Boot and Jsoup."
+    - title: Sellermill B2B eCommerce Platform (FastView)
+      tagline: "Refactored backend architecture for large-scale B2B eCommerce system using Spring Boot and AWS Cloud."
     - title: E2EE Secure Messenger (OpenObject)
       tagline: "End-to-end encrypted communication system built with Spring Boot."
     - title: 5G IIoT MEC Platform (OpenObject)
@@ -149,14 +151,15 @@ oss:
       tagline: "Personal projects and experimental repositories."
 
 publications:
-  title: Publications
+  title: Media Features
   intro: >
-    Technical documentation and engineering write-ups published internally and externally.
+    Featured media articles and interviews about my professional work and development journey.
   papers:
-    - title: "Building CI/CD Pipelines with Jenkins"
-      conference: Confluence Tech Wiki, 2024
-    - title: "Kubernetes Deployment Automation via GitLab CI/CD"
-      conference: Confluence Tech Wiki, 2024
+    - title: "How FastView Developers Work: Inside the Development Team Culture"
+      conference: FastViewKorea Official Blog, 2023
+      link: "https://bit.ly/3FaBYwH"
+      description: >
+        A group interview published by FastView Korea introducing the daily workflow, development culture, and collaboration mindset of the FastView engineering team.
 
 skills:
   title: Skills & Proficiency
@@ -165,7 +168,7 @@ skills:
       level: 95%
     - name: Spring Boot / Spring Cloud / JPA
       level: 90%
-    - name: AWS (EC2, RDS, S3, Lambda, Beanstalk)
+    - name: AWS (EC2, RDS, S3, Lambda)
       level: 85%
     - name: Docker / Kubernetes / Jenkins / GitLab CI
       level: 85%
