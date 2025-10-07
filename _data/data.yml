@@ -143,7 +143,7 @@ oss:
   intro: >
     I continuously learn and share technical insights through my blog and open-source contributions.
   contributions:
-    - title: maxjang.com Technical Blog
+    - title: Technical Blog
       link: "https://maxjang.com"
       tagline: "Writing about Spring, DevOps, and Cloud architecture."
     - title: GitHub Repository
