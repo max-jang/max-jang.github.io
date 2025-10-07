@@ -168,7 +168,7 @@ skills:
       level: 95%
     - name: Spring Boot / Spring Cloud / JPA
       level: 90%
-    - name: AWS (EC2, RDS, S3, Lambda)
+    - name: AWS / Azure (EKS, EC2, AKS, App Service)
       level: 85%
     - name: Docker / Kubernetes / Jenkins / GitLab CI
       level: 85%
