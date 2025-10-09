@@ -5,7 +5,7 @@ sidebar:
 
   # Profile information
   name: Max Jang
-  tagline: Backend Engineer <br> Java/Kotlin, Spring Boot
+  tagline: Software Engineer<br>Backend & Platform
   avatar: profile.png
 
   # Sidebar links
@@ -53,9 +53,11 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    I am a backend engineer with hands-on experience in building and maintaining web and application services using Kotlin, Java, Spring Boot, and cloud-native technologies. 
-    My focus lies in developing efficient, scalable, and reliable systems through thoughtful design and clean architecture. 
-    With a strong passion for continuous learning, I stay current with industry trends and value collaboration and clear communication in every project.
+    I am a software engineer focused on backend and platform (runtime & delivery).
+    I design and ship Spring Boot services in Kotlin/Java and operate them reliably on Kubernetes (AKS/EKS)
+    with production-grade CI/CD and observability. I care about measurable outcomes—latency, error rate,
+    and release lead time—and collaborate across code, pipelines, and runtime to improve both delivery speed
+    and resilience.
 
 education:
   title: Education
@@ -76,35 +78,42 @@ education:
 experiences:
   title: Experiences
   info:
-    - role: Backend Developer
+    - role: Software Engineer (Backend)
       company: SK Shieldus
       time: Oct 2023 - Present
       details: |
-        - Developed and operated SUMiTS FM and Safety Management Platform for smart building systems.
-        - Designed APIs and analytics algorithms for real-time collection and analysis of building HVAC equipment data.
-        - Developed and maintained alarm detection rules to automatically identify security threats and abnormal behavior based on predefined conditions.
-        - Built a real-time alarm monitoring dashboard to improve operational efficiency.
-        - Improved API response speed by approximately 30% and enhanced system stability and maintainability.
+        - Built and operated SUMiTS FM and Safety Management Platform for smart building systems.
+        - Designed REST APIs and analytics algorithms for real-time collection and analysis of HVAC equipment data.
+        - Containerized services and operated workloads on Azure AKS; introduced infrastructure-as-code and environment standardization.
+        - Implemented CI/CD (Jenkins/GitLab CI) and release automation; added canary/blue-green style staged rollouts where applicable.
+        - Established observability with Prometheus/Grafana and Azure Monitor (Application Insights/Log Analytics) and built an alarm dashboard.
+        - Energy efficiency: reduced HVAC energy usage by ~20% (internal energy analysis).
+        - Anomaly/alarm detection accuracy ≥95% based on monitoring logs.
+        - Improved API response speed by ~30% and enhanced system stability and maintainability.
 
-    - role: Backend Developer
+    - role: Software Engineer (Backend)
       company: FastView
       time: Jan 2022 - Apr 2023
       details: |
         - Developed an automated content management system using Spring Boot and Selenium.
-        - Managed scalable AWS infrastructure (EC2, RDS, ALB).
-        - Implemented REST APIs with JWT-based authentication and CI/CD pipelines.
+        - Implemented REST APIs with JWT-based authentication; packaged and deployed services via CI/CD.
+        - Managed scalable AWS infrastructure (EC2, RDS, ALB) and basic container orchestration.
         - Automated data collection with Jsoup-based schedulers.
         - Increased site traffic by 25% and reduced manual workload by 70%.
+        - Cut manual deployment time by ~80% via automated release features.
+        - Reduced authentication failure rate by ~95% after introducing JWT-based auth.
 
-    - role: Backend Developer
+    - role: Software Engineer (Backend)
       company: OpenObject
       time: Mar 2017 - Jan 2022
       details: |
         - Built enterprise and fintech solutions for public institutions.
         - Developed a 5G MEC platform using Spring Boot and containerized microservices.
         - Created secure E2EE messenger, ERP, and IoT management systems.
-        - Deployed and maintained Docker & Kubernetes-based infrastructure.
+        - Deployed and maintained Docker & Kubernetes-based infrastructure (including EKS where applicable).
         - Reduced failure rates by 60% and improved API response times by 35%.
+        - Security hardening: ~85% reduction in reported vulnerabilities for the E2EE messenger (internal audits).
+        - User support: ~50% fewer user-reported incidents post-release.
 
 certifications:
   title: Certifications
@@ -125,10 +134,10 @@ certifications:
 projects:
   title: Major Projects
   intro: >
-    Highlighting key engineering projects focused on backend architecture, performance, and scalability.
+    Highlighting key projects that integrate backend development with platform reliability—Kubernetes, CI/CD, and observability.
   assignments:
     - title: SUMiTS Platform (SK Shieldus)
-      tagline: "Smart building management platform with real-time HVAC data analytics."
+      tagline: "Smart building management with real-time HVAC analytics, energy optimization, and alarms."
     - title: Viewus Integrated Content Collector (FastView)
       tagline: "Automated content aggregation using Spring Boot and Jsoup."
     - title: Sellermill B2B eCommerce Platform (FastView)
@@ -136,7 +145,7 @@ projects:
     - title: E2EE Secure Messenger (OpenObject)
       tagline: "End-to-end encrypted communication system built with Spring Boot."
     - title: 5G IIoT MEC Platform (OpenObject)
-      tagline: "Low-latency, high-reliability IIoT platform powered by Docker & Kubernetes."
+      tagline: "Low-latency (−35% API), high-reliability (−60% failures) IIoT platform on Docker & Kubernetes."
 
 oss:
   title: Open Source & Blog
@@ -149,6 +158,15 @@ oss:
     - title: GitHub Repository
       link: "https://github.com/max-jang"
       tagline: "Personal projects and experimental repositories."
+    - title: "Open-source PR – Toss Frontend Fundamentals"
+      link: "https://github.com/toss/frontend-fundamentals/pull/209"
+      tagline: 'Docs (JP) — terminology consistency & readability: refined phrasing to "リリースしやすいコード"; merged & verified (#209, 2025-04-11).'
+    - title: "Security Disclosure – Yes24"
+      link: "https://knvd.krcert.or.kr/"
+      tagline: "Acknowledged (Korea, 2025) — KVE-2025-0479."
+    - title: "Security Disclosure – Amano System (Airport Parking)"
+      link: "https://knvd.krcert.or.kr/"
+      tagline: "Acknowledged (Korea, 2025) — KVE-2025-0494."
 
 publications:
   title: Media Features
@@ -164,17 +182,21 @@ publications:
 skills:
   title: Skills & Proficiency
   toolset:
-    - name: Java / Kotlin
+    - name: Spring Boot / Kotlin / Java
       level: 95%
-    - name: Spring Boot / Spring Cloud / JPA
+    - name: Kubernetes (AKS/EKS) / Docker
       level: 90%
-    - name: AWS / Azure (EKS, EC2, AKS, App Service)
+    - name: CI/CD (Jenkins / GitLab CI / GitHub Actions)
       level: 85%
-    - name: Docker / Kubernetes / Jenkins / GitLab CI
+    - name: Data Access (Spring Data JPA / QueryDSL / Hibernate)
       level: 85%
-    - name: MySQL / MariaDB / PostgreSQL / Redis
+    - name: Observability (Prometheus / Grafana / ELK / Azure Monitor)
+      level: 85%
+    - name: Databases (PostgreSQL / MySQL-MariaDB / Redis)
       level: 80%
+    - name: Cloud (Azure / AWS - EC2, RDS, ALB, AKS, App Service)
+      level: 80%
+    - name: Linux (Ubuntu / CentOS)
+      level: 75%
     - name: ReactJS / JavaScript (ES6)
       level: 65%
-    - name: Linux (Ubuntu, CentOS)
-      level: 75%
